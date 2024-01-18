@@ -1,5 +1,5 @@
 def sumar():
-    print("Ejecutando la función sumar()")
+    print("Ejecutando la función sumar")
     n = int(input("Ingrese la cantidad de números a sumar: "))
     resultado = 0
     for _ in range(n):
@@ -20,7 +20,7 @@ def restar():
         return resultado
 
 def multiplicar():
-    print("Ejecutando la función multiplicar()")
+    print("Ejecutando la función multiplicar(")
     num1 = float(input("Ingrese el primer número: "))
     num2 = float(input("Ingrese el segundo número: "))
     num3 = float(input("Ingrese el tercer número: "))
@@ -28,7 +28,7 @@ def multiplicar():
     return resultado
 
 def dividir():
-    print("Ejecutando la función dividir()")
+    print("Ejecutando la función dividir")
     numerador = float(input("Ingrese el numerador: "))
     denominador = float(input("Ingrese el denominador: "))
     if denominador == 0:
@@ -46,6 +46,13 @@ if resultado_resta is not None:
 
 resultado_multiplicacion = multiplicar()
 print(f"Resultado de la multiplicación: {resultado_multiplicacion}")
+
+resultado_multiplicacion = multiplicar()
+print(f"Resultado de la multiplicación: {resultado_multiplicacion}")
+
+resultado_division = dividir()
+if resultado_division is not None:
+    print(f"Resultado de la división: {resultado_division}")
 
 resultado_division = dividir()
 if resultado_division is not None:
