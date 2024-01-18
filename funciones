@@ -28,7 +28,7 @@ def multiplicar():
     return resultado
 
 def dividir():
-    print("Ejecutando la función dividir()")
+    print("Ejecutando la función dividir")
     numerador = float(input("Ingrese el numerador: "))
     denominador = float(input("Ingrese el denominador: "))
     if denominador == 0:
