@@ -1,5 +1,5 @@
 def sumar():
-    print("Ejecutando la función sumar()")
+    print("Ejecutando la función sumar")
     n = int(input("Ingrese la cantidad de números a sumar: "))
     resultado = 0
     for _ in range(n):
